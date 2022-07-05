@@ -5,7 +5,7 @@ import img1 from '../assets/logo-bcc.jpg'
 
 const Home = () => {
     const {text} = useTypewriter({
-        words: [' Developer...', 'Creator...', 'Designer...', 'Mentor...'],
+        words: [' Developer...', 'Creator...','Investor', 'Designer...', 'Mentor...'],
         loop: 0, 
         typeSpeed: 300,
         deleteSpeed: 30,
