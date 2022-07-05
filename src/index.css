@@ -1,13 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* From https://css.glass */
+    background: rgba(56, 128, 212, 0.45);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);
+    color: #fff;
+}
+
+.active {
+    background-color: #C850C0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+a {
+    margin: 1rem 2rem;
+    text-decoration: none;
+    font-family: poppins;
+    color: #111;
+}
+
+h1 {
+    font-family: montserrat;
+    text-align: center;
+    background: #111;
+    color: #fff;
+    padding: 2rem;
+    width: max-content;
+    margin: 1.5rem;
+}
+
+h2 {
+    font-family: montserrat;
+}
+
+.cursor {
+    animation: blink 1s linear infinite forwards;
+}
+
+.btn {
+    padding: 18px 30px;
+    border-radius: 30px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-top-right-radius: 0;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    font-family: inter;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
+
+.color {
+    color: #4158D0;
+}
+
+.center {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 320px;
+    max-width: 100%;
+    background: linear-gradient(145deg, #CACCCF, #FFFFFF);
+    /* border-radius: 15%; */
+    box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+}
+
+.card h3 {
+    padding-top: 10px;
+    font-size: 1.8rem;
+    font-family: inter;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
 }
