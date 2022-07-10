@@ -5,7 +5,7 @@ import img1 from '../assets/logo-bcc.jpg'
 
 const Home = () => {
     const {text} = useTypewriter({
-        words: [' Developer...', 'Creator...','Investor', 'Designer...', 'Mentor...'],
+        words: [' Developer...', 'Creator...','Investor...', 'Designer...', 'Mentor...'],
         loop: 0, 
         typeSpeed: 300,
         deleteSpeed: 30,
@@ -13,7 +13,7 @@ const Home = () => {
       })
     return (
         <>
-            <h1>Home</h1>
+            <h1 className='home'>Homepage</h1>
             <h2>I'm a <span className='color'> {text}<span className="cursor">|</span></span></h2>
             <div className="center">
 <Btn text="Download CV" className="btn"/>

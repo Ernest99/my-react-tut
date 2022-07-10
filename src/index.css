@@ -28,6 +28,11 @@ a {
     color: #111;
 }
 
+h1.home {
+    background: dodgerblue;
+    color: #fff;
+}
+
 h1 {
     font-family: montserrat;
     text-align: center;
