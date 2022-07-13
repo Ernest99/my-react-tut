@@ -4,6 +4,7 @@ import image2 from '../assets/Art_animals.jpg'
 import image3 from '../assets/Art.jpg'
 import image4 from '../assets/Art_dogs.jpg'
 import Btn from './Btn'
+import Link from './Link'
 
 const data = [
     {
@@ -32,6 +33,7 @@ const Service = () => {
     
   return (
     <>
+    <Link/>
     <div className="service">
         <h1>Service</h1>
 <div className="cards">
