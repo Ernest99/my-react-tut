@@ -3,16 +3,33 @@ import { Link } from 'react-router-dom'
 
 
 const NavLink = () => {
-    const link = ["Home", "About", "Service", "Contact"]
+    const link = [
+      {
+        link: "Home",
+        dir: '/'
+      },
+      {
+        link: "About",
+        dir: '/about'
+      },
+      {
+        link: "Service",
+        dir: '/service'
+      },
+      {
+        link: "Product",
+        dir: '/product'
+      }
+    ]
   return (
     <>
     <ul>
         
    
            {
-link.map((link)=>{
+link.map(({link,dir})=>{
     return(
-<li><Link to="/">{link}</Link></li>
+<li><Link to={dir}>{link}</Link></li>
     )
 })
            } 
