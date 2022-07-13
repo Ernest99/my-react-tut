@@ -1,5 +1,7 @@
 import React from 'react'
 import Btn from './Btn'
+import NavLink from './NavLink'
+
 
 const Product = () => {
 
@@ -8,6 +10,7 @@ const Product = () => {
         <h1>Product</h1>
         <Btn text="Product Button" className="btn"/>
         <h2>This is the product page....</h2>
+        <NavLink/>
        </div>
     )
 }
