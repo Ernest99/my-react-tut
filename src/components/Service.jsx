@@ -4,7 +4,7 @@ import image2 from '../assets/Art_animals.jpg'
 import image3 from '../assets/Art.jpg'
 import image4 from '../assets/Art_dogs.jpg'
 import Btn from './Btn'
-import Link from './Link'
+import Link from './NavLink'
 
 const data = [
     {

@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Link = () => {
+
+const NavLink = () => {
     const link = ["Home", "About", "Service", "Contact"]
   return (
     <>
@@ -10,7 +12,7 @@ const Link = () => {
            {
 link.map((link)=>{
     return(
-<li><a href="/">{link}</a></li>
+<li><Link to="/">{link}</Link></li>
     )
 })
            } 
@@ -20,4 +22,4 @@ link.map((link)=>{
   )
 }
 
-export default Link
+export default NavLink
