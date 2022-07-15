@@ -13,6 +13,7 @@ const Home = () => {
       })
     return (
         <>
+        <div className='ui container'>
             <h1 className='home'>Homepage</h1>
             <h2>I'm a <span className='color'> {text}<span className="cursor">|</span></span></h2>
             <div className="center">
@@ -21,6 +22,7 @@ const Home = () => {
 </div>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br/>Id ipsum commodi labore minus excepturi, sit quasi distinctio laborum enim harum.</p>
 <img src={img1} alt="" />
+</div>
         </>
     )
 }
