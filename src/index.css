@@ -105,3 +105,9 @@ h2 {
 h2 {
     padding: 1.4rem;
 }
+p{
+    color: red;
+    text-align: center;
+    font-weight: 500;
+    font-size: medium !important;
+}
