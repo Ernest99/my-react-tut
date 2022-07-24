@@ -27,7 +27,10 @@ a {
     font-family: poppins;
     color: #111;
 }
-
+.space{
+    margin: 0  0 !important;
+    
+}
 h1.home {
     background: dodgerblue;
     color: #fff;
@@ -114,4 +117,25 @@ p{
 }
 .service{
     height: 200vh;
+}
+
+.counter{
+    display: flex;
+    gap: 1rem;
+    align-self: center;
+    justify-content: center;
+
+}
+.counter h2{
+    font-size: 16px;
+    background: red;
+}
+.counter button{
+    /* width: 30px;
+    height: 30px; */
+    display: block;
+    padding: 1rem 1.8rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+
 }
