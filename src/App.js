@@ -9,7 +9,10 @@ import {Route, Routes} from 'react-router-dom'
 function App() {
     //write javascript here
     return (
+        
         <div className="App">
+    
+           
             <Navbar/>
 
             <Routes>
